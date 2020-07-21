@@ -5,3 +5,7 @@ require refind
 
 PLATFORMS="~amd64"
 
+DEFAULT_SRC_PREPARE_PATCHES=(
+    "${FILES}"/0001-Fix-GCC-10-compile-problem.patch
+)
+
